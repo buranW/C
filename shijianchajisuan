@@ -1,0 +1,15 @@
+# include <stdio.h>
+
+int main()
+{
+	int time,internal,hour,minute,a,b,c,d;
+	scanf("%d %d",&time,&internal);
+	hour = time/100;
+	minute=time%100;
+	a=60*hour+minute+internal;
+	b=a/60;
+	c=a%60;
+	d=b*100+c;
+	printf("%d",d);
+	return 0;
+}

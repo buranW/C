@@ -1,0 +1,13 @@
+# include <stdio.h>
+
+int main()
+{
+	int num,bai,shi,ge,answer;
+	scanf("%d",&num);
+	bai=num/100;
+	ge=num%10;
+	shi=num%100/10;
+	answer=shi*10+ge*100+bai;
+	printf("%d",answer);
+	return 0;
+ } 
