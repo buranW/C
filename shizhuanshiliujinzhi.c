@@ -7,3 +7,4 @@ int main()
 	printf("0x%x",x);
 	return 0;
 }
+

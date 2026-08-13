@@ -1,7 +1,7 @@
-# include <stdio.h>
-
-int main()
-{
+# include <stdio.h>	
+	
+int main()	
+{	
 	int num,bai,shi,ge,answer;
 	scanf("%d",&num);
 	bai=num/100;
@@ -10,4 +10,5 @@ int main()
 	answer=shi*10+ge*100+bai;
 	printf("%d",answer);
 	return 0;
- } 
+ } 	
+
