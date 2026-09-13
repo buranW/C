@@ -16,7 +16,7 @@ int main()
 		scanf("%d",&x);
 	}
 	for(i=0;i<num;i++){
-		printf("%dÓÐ%d¸ö\n",i,count[i]);
+		printf("%d %d\n",i,count[i]);
 	}
 	return 0;
 }
